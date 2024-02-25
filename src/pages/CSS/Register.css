@@ -1,0 +1,172 @@
+.form-container{
+    max-width: 350px;
+    background: #F8F9FD;
+    background: #2f2d52;
+    border-radius: 40px;
+    padding: 30px 35px;
+    border: 5px solid rgb(255, 255, 255);;
+    margin-left: 550px;
+    margin-top: 29px;
+}
+
+
+.navbarRegister {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.navbarRegister>p {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.imgRegister {
+    width: 50px;
+    height: 50px;
+}
+.title{
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.forms {
+    margin-top: 20px;
+}
+
+.forms .input {
+    width: 90%;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    color: black;
+    background-color: white;
+    border-inline: 2px solid transparent;
+}
+.file{
+    background-color: white ;
+    padding: 0;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 10px;
+    border-color: white;
+    border-width: 0;
+    background-color: whitesmoke;
+    border-radius: 0.375rem; 
+    border-width: 1px;
+    border-style: solid;
+    background-color: whitesmoke;
+}
+
+.forms .input::-moz-placeholder {
+    color: black
+}
+
+.forms .input::placeholder {
+    color: black;
+}
+
+.forms .input:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+}
+
+.forms .signup-button{
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: whitesmoke;
+    color:#2f2d52;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.forms .signup-button:hover {
+    transform: scale(1.03);
+}
+
+.forms .signup-button:active {
+    transform: scale(0.95);
+}
+
+.account{
+    display: block;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(170, 170, 170);
+}
+.label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    columns: #8da4f1;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footers {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin-top: 15vh;
+
+}
+.img{
+    width: 32px;
+
+}
+
+@media (max-width:1024px) {
+    .form-container {
+        margin-top: 20px;
+        margin-left: 320px;
+        margin-right: 30px;
+    }
+
+    .footers {
+        margin-top: 6vh;
+    }
+}
+
+@media (max-width:1024px) {
+    .form-container {
+        margin-top: 20px;
+        margin-left: 180px;
+        margin-right: 30px;
+    }
+
+    .footers {
+        margin-top: 6vh;
+    }
+}
+@media (max-width:426px) {
+    .form-container {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footers {
+        margin-top: 6vh;
+    }
+}
+

@@ -1,0 +1,155 @@
+.containerlogin {
+    max-width: 350px;
+    color: black;
+    background: #F8F9FD;
+    background: #2f2d52;
+    border-radius: 40px;
+    padding: 30px 35px;
+    border: 5px solid rgb(255, 255, 255);
+    
+    margin-left: 550px;
+    margin-top: 120px;
+}
+.navbarlogin{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.navbarlogin>p{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.imglogin{
+    width: 50px;
+    height: 50px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin-top: 15.5vh;
+    
+}
+
+@media (max-width:1024px){
+    .containerlogin{
+        margin-top: 49px;
+        margin-left: 320px;
+        margin-right: 30px;
+    }
+}
+@media (max-width:768px) {
+    .containerlogin {
+        margin-top: 49px;
+        margin-left: 180px;
+        margin-right: 30px;
+    }
+}
+@media (max-width:426px) {
+    .containerlogin {
+        margin-top: 60px;
+        margin-left: 25px;
+        margin-right: px;
+    }
+}
+
+
+
+
+.heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form .input {
+    width: 90%;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    border-inline: 2px solid transparent;
+}
+
+.form .input::-moz-placeholder {
+    color: black;
+}
+
+.form .input::placeholder {
+    color: black;
+}
+
+.form .input:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+}
+
+.form .forgot-password {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form .forgot-password a {
+    font-size: 11px;
+    color: #0099ff;
+    text-decoration: none;
+}
+
+.form .login-button {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: white;
+    color: #2f2d52;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.form .login-button:hover {
+    transform: scale(1.03);
+}
+
+.form .login-button:active {
+    transform: scale(0.95);
+}
+
+.social-account-container {
+    margin-top: 25px;
+}
+
+.social-account-container .title {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+.social-account-container .social-accounts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}

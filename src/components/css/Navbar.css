@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    background: #2f2d52;
+    height: 70px;
+    justify-content: space-between;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.user{
+    display: flex;
+    gap:10px;
+}
+.img{
+    background-color: #ddddf7;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 16px;
+    object-fit: cover;
+}
+.span{
+    margin-top: 25px;
+    margin-right: 3px;
+}
+.button{
+    margin-left: 2px;
+    margin-right: 6px;
+    margin-top: 20px;
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #5d5d8d;
+    color: #ddddf7;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
