@@ -82,6 +82,7 @@
 .form .input {
     width: 90%;
     color: black;
+    background-color: white;
     border: none;
     padding: 15px 20px;
     border-radius: 20px;

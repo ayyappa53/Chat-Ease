@@ -1,6 +1,8 @@
 import { useContext, useState, useEffect } from 'react'
 import './css/Chats.css'
-import { doc, onSnapshot } from 'firebase/firestore'
+import { doc, onSnapshot } from 'firebase/firestore';
+import { collection} from 'firebase/firestore';
+
 import { AuthContext } from '../context/AuthContext';
 import { db } from '../firebase';
 import { ChatContext } from '../context/ChatContext'
@@ -22,17 +24,16 @@ const Chats = () => {
     currentUser.uid && getChats();
   }, [currentUser.uid]);
 
+  
+
+
   const handleSelect = (u) => {
     dispatch({ type: "CHANGE_USER", payload: u });
   };
 
-  if (chats === null) {
-    return <div>Loading...</div>;
-  }
-
   return (
     <div className="chats">
-      {Object.entries(chats).sort((a, b) => b[1].date - a[1].date).map((chat) => (
+       {chats? Object.entries(chats).sort((a, b) => b[1].date - a[1].date).map((chat) => (
         <div className="userChat" key={chat[0]} onClick={() => handleSelect(chat[1].userInfo)}>
           <img className='imgsearch' src={chat[1].userInfo.photoURL} alt="" />
           <div className="userChatInfo">
@@ -40,7 +41,7 @@ const Chats = () => {
             <p className='p'>{chat[1].lastMessage?.text}</p>
           </div>
         </div>
-      ))}
+      )):null}
     </div>
   );
 };
