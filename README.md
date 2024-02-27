@@ -1,8 +1,22 @@
-# React + Vite
+# Chat Ease
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chat Ease is a private multi-chat application designed to facilitate secure communication between multiple users. It offers a seamless chat experience with end-to-end encryption, ensuring that your conversations remain private.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+
+- **Private Multi-Chat Messenger:** Built using React.js and CSS.
+- **Modern Features:** Includes login, register, and image reserving capabilities using Firebase as the backend.
+- **Responsive Design:** Ensures an elegant and user-friendly experience across devices.
+
+
+[Live Link](https://master--heartfelt-selkie-290ba4.netlify.app)
+
+### Author
+
+- [ayyappa53](https://github.com/ayyappa53)
+
+
+### Feedback
+
+If you have any feedback, please reach out to me at [ayyappachowdarykandula@gmail.com](mailto:ayyappachowdarykandula@gmail.com)
